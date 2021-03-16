@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import { RijtjeDisplay } from "../elements/rijtjeDisplay";
 
@@ -7,7 +6,7 @@ export class App extends React.Component {
     super(props);
     this.state = {
       gevraagdeRijtje: "praesensA",
-    }
+    };
   }
   render() {
     return (
