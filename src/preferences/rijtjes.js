@@ -1,21 +1,3 @@
-export const praesensA = {
-  ev1: "o",
-  ev2: "s",
-  ev3: "t",
-  mv1: "mus",
-  mv2: "tis",
-  mv3: "nt",
-}
-
-export const preasensP = {
-  ev1: "or",
-  ev2: "ris",
-  ev3: "tur",
-  mv1: "mur",
-  mv2: "mini",
-  mv3: "ntur",
-}
-
 export const rijtjes = {
   praesensA: {
     ev1: "o",
@@ -25,6 +7,54 @@ export const rijtjes = {
     mv2: "tis",
     mv3: "nt",
   },
+  imperfectumA: {
+    ev1: "bam",
+    ev2: "bas",
+    ev3: "bat",
+    mv1: "bamus",
+    mv2: "batis",
+    mv3: "bant",
+  },
+  perfecturmA: {
+    ev1: "i",
+    ev2: "isti",
+    ev3: "it",
+    mv1: "imus",
+    mv2: "istis",
+    mv3: "erunt",
+  },
+  plusquamperfectumA: {
+    ev1: "eram",
+    ev2: "eras",
+    ev3: "erat",
+    mv1: "eramus",
+    mv2: "eratis",
+    mv3: "erant",
+  },
+  futurumAaofe: {
+    ev1: "bo",
+    ev2: "bis",
+    ev3: "bit",
+    mv1: "bimus",
+    mv2: "bitis",
+    mv3: "bunt",
+  },
+  futurumAiofmk: {
+    ev1: "am",
+    ev2: "es",
+    ev3: "et",
+    mv1: "emus",
+    mv2: "etis",
+    mv3: "ent",
+  },
+  futurumexactum: {
+    ev1: "ero",
+    ev2: "eris",
+    ev3: "erit",
+    mv1: "erimus",
+    mv2: "eritis",
+    mv3: "erint",
+  },
   praesensP: {
     ev1: "or",
     ev2: "ris",
@@ -32,5 +62,5 @@ export const rijtjes = {
     mv1: "mur",
     mv2: "mini",
     mv3: "ntur",
-  }
+  },
 }

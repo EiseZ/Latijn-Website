@@ -6,6 +6,7 @@ export class RijtjeDisplay extends React.Component {
   render() {
     console.log(this.props.type);
     let rijtjeToRender = { error: "Kan het gevraagde rijtje niet vinden" };
+    console.log(Object.keys(rijtjes));
     if (Object.keys(rijtjes).includes(this.props.type)) {
       rijtjeToRender = rijtjes[this.props.type]; //Object.keys(rijtjes).indexOf(this.props.type);
       console.log(rijtjeToRender);
